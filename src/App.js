@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import RList from './components/RList';
 import Roles from './components/Roles';
+import RoleSwitched from './components/RoleSwitched';
 
 
 
@@ -18,6 +19,8 @@ function App() {
       <Projects/>
       <Button/>
       <h1 className = "roles-title">ROLES</h1>
+      <Roles/>
+      <RoleSwitched/>
       <Roles/>
       <Button/>
       <h1 className="reading-title">READING LIST</h1>

@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+/*1px solid red*/
+
 :root{
     --border-template: none;
+    --grey-color: #C4C4C4;
 }
+
+
+/*HEADER*/
 
 #header-wrapper{
     background-color: #65AFF3;
@@ -55,4 +61,94 @@ img{
 .bio-block{
     width: 40rem;
     text-align: center;
+}
+
+
+/*PROJECTS*/
+
+.projects-title, .roles-title{
+    margin: 1rem;
+    font-size: 46px;
+    color:#65AFF3;
+}
+
+
+.tiles{
+    background-color: var(--grey-color); 
+    min-height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.projects-wrapper{
+    display: flex;
+    justify-content: center;
+    width:100%; 
+}
+
+.tiles-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 26em);
+    column-gap: 2rem;
+}
+
+.button-wrapper{
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding: 1rem 2rem;
+    min-height: 3rem; 
+    border: 2px solid black;
+    font-size: 25px; 
+    background-color: white;
+}
+
+
+
+
+/* ROLES */
+
+.roles-wrapper{
+    min-height: 25rem;
+    display: flex; 
+}
+
+.image{
+    width:50%;
+    background-color: var(--grey-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--border-template);
+    font-size: 30px;
+}
+
+.text{
+    width:50%;
+    background-color:#65AFF3;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: var(--border-template);
+    color: white;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer-wrapper{
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    background-color: #65AFF3;
 }
