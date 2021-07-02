@@ -5,21 +5,22 @@
 }
 
 :root{
-    --border-template: 2px solid red;
+    --border-template: none;
 }
 
 #header-wrapper{
     background-color: #65AFF3;
     border: var(--border-template);
-    min-height: 400px; 
+    min-height: 30rem; 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 img{
-    width: 650px;
-    height: 500px;
+    width: 25rem;
+    height: 22rem;
+    border: var(--border-template);
 }
 
 
@@ -32,10 +33,26 @@ img{
 }
 
 #text-wrapper h1{
-    font-size: 155px;
-    margin-bottom: -18px;
+    font-size: 8.2rem;
 }
 
-#text-wrapper h3{
-    font-size: 28px;
+
+/*BIO*/
+
+.bio-wrapper{
+    min-height: 25rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-title{
+    margin-bottom: 2rem;
+    font-size: 46px;
+    color: #65AFF3;
+}
+
+.bio-block{
+    width: 40rem;
+    text-align: center;
 }
