@@ -1,4 +1,5 @@
 import Books from "./Books"
+import arrow from "../Photos/arrow.svg"
 
 
 
@@ -8,7 +9,8 @@ function RList() {
             <Books className="Book1"/>
             <Books className="Book2"/>
             <Books className="Book3"/>
-            <div className="arrow"></div>
+            <Books className="Book4"/>
+            <img className="arrow" src={arrow} alt="arrow"/>
         </div>
     )
 }
